@@ -1,0 +1,465 @@
+body {
+    background-color: #2f372d;
+    font-family: 'BPG LE Studio 02', sans-serif;
+}
+
+.header {
+    width: 350px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.container {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1c376;
+    border-radius: 9px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 65px;
+}
+
+h1 {
+    width: 300px;
+    height: 71px;
+    flex-grow: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #2f372d;
+}
+
+.header-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header-design {
+    width: 0;
+}
+
+.header-img {
+    width: 51px;
+    height: 68px;
+    margin-left: -51px;
+}
+
+.ri-search-line {
+    font-size: 18px;
+    color: #f1c376;
+    z-index: 1;
+}
+
+.header-search input {
+    width: 243px;
+    height: 27px;
+    flex-grow: 0;
+    padding-left: 35px;
+    border-radius: 55px;
+    border: solid 1px rgba(241, 195, 118, 0.97);
+    background-color: #2f372d;
+    font-size: 8px;
+    margin: auto -30px;
+}
+
+.ri-equalizer-2-line {
+    font-size: 18px;
+    color: #f1c376;
+}
+
+.header-nav {
+    width: 300px;
+    height: 50px;
+    background-color: #606c5d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: -32px auto 0;
+    border-radius: 9px;
+}
+
+.line {
+    height: 50px;
+    width: 0.5px;
+    background-color: #2f372da9;
+}
+
+.header-nav i {
+    font-size: 16px;
+}
+
+.events {
+    width: 116px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7e6c4;
+}
+
+.offers {
+    width: 116px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7e6c4;
+}
+
+.edcoin-offers {
+    width: 116px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7e6c4;
+}
+
+.edcoin-offers p {
+    line-height: 13px;
+}
+
+.nearby-container{
+    width: 350px;
+    margin: auto;
+}
+
+.nearby-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70px;
+    transform: translateY(-7px);
+}
+
+.ri-restaurant-2-fill {
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(4px);
+}
+
+.ri-pin-distance-fill {
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    z-index: 1;
+}
+
+.ri-road-map-fill {
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(-4px);
+}
+
+.nearby-title {
+    width: 350px;
+    height: 46px;
+    flex-grow: 0;
+    border: solid 1px rgba(247, 230, 196, 0.3);
+    background-color: #2f372d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nt-text {
+    font-size: 9px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f1c376;
+    padding-bottom: 25px;
+}
+
+.restaurant-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 350px;
+    column-gap: 8px;
+    margin: 5px 0 100px;
+}
+
+.see-more {
+    grid-column: 3/-1;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 7px;
+    font-weight: bold;
+    text-align: left;
+    text-align: right;
+    color: #f7e6c4;
+    transform: translateY(10px);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 135px;
+    gap: 5px;
+}
+
+.item .ri-heart-line {
+    background-color: #2f372d;
+    color: #f7e6c4;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 3.8px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    transform: translateY(28px);
+    align-self: flex-end;
+}
+
+.item img {
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+
+.restaurant-name {
+    font-size: 13px;
+    color: #f7e6c4;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review .star {
+    font-size: 13px;
+    color: #ffa629;
+    margin: 0 5px 0 0;
+}
+
+.review p {
+    font-size: 6px;
+    color: rgba(247, 230, 196, 0.5);
+}
+
+.rev-num{
+    padding-right: 3px;
+}
+
+
+.location {
+    font-size: 6px;
+    color: #f7e6c4;
+
+}
+
+.fav-container{
+    width: 350px;
+    margin: auto;
+}
+
+.fav-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70px;
+    transform: translateY(-7px);
+}
+
+.ri-chat-heart-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(4px);
+}
+
+
+.ri-star-s-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    z-index: 1;
+}
+
+
+.ri-thumb-up-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(-4px);
+}
+
+.fav-title{
+    width: 350px;
+    height: 46px;
+    flex-grow: 0;
+    border: solid 1px rgba(247, 230, 196, 0.3);
+    background-color: #2f372d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ft-text{
+    font-size: 9px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f1c376;
+    padding-bottom: 25px;
+}
+
+.avail-container{
+        width: 350px;
+        margin: auto;
+}
+
+.avail-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70px;
+    transform: translateY(-7px);
+}
+
+.ri-door-open-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(4px);
+}
+
+.ri-map-pin-time-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    z-index: 1;
+}
+
+.ri-restaurant-fill{
+    background-color: #f7e6c4;
+    color: #2f372d;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    border: solid 1px #2f372d;
+    transform: translateX(-4px);
+}
+
+.avail-title{
+    width: 350px;
+    height: 46px;
+    flex-grow: 0;
+    border: solid 1px rgba(247, 230, 196, 0.3);
+    background-color: #2f372d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.at-text{
+    font-size: 9px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f1c376;
+    padding-bottom: 25px;
+}
