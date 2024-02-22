@@ -465,3 +465,167 @@ h1 {
     color: #f1c376;
     padding-bottom: 25px;
 }
+
+@media screen and (min-width:500px) {
+    body {
+        background-color: rgb(155, 155, 99);
+    }
+
+    .header {
+        width: 400px;
+        height: 230px;
+    }
+
+    .container {
+        height: 200px;
+    }
+
+    .header-content {
+        margin: 55px auto 65px;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .header-img {
+        width: 65px;
+        height: 90px;
+        margin-left: -65px;
+    }
+
+    .ri-search-line {
+        font-size: 18px;
+        color: #f1c376;
+        z-index: 1;
+    }
+
+    .header-search input {
+        width: 270px;
+        height: 30px;
+    }
+
+
+    .header-nav {
+        width: 340px;
+        height: 60px;
+    }
+
+    .line {
+        height: 60px;
+    }
+
+    .header-nav i {
+        font-size: 20px;
+    }
+
+    .events {
+        width: 116px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .offers {
+        width: 116px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .edcoin-offers {
+        width: 116px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+
+    .nearby-container {
+        width: 400px;
+    }
+
+    .nearby-title {
+        width: 400px;
+        height: 50px;
+    }
+
+    .nt-text {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .restaurant-containers {
+        width: 400px;
+        column-gap: 8px;
+        margin: 5px 0 70px;
+        height: 170px;
+    }
+
+    .see-more {
+        font-size: 12px;
+    }
+
+    .item {
+        width: 128px;
+        height: 135px;
+        gap: 5px;
+    }
+
+    .ri-heart-line {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .item img {
+        margin-top: -22px;
+    }
+
+    .restaurant-name {
+        font-size: 16px;
+    }
+
+    .review .star {
+        font-size: 15px;
+    }
+
+    .review p {
+        font-size: 8px;
+    }
+
+    .rev-num {
+        padding-right: 5px;
+    }
+
+    .location {
+        font-size: 8px;
+    }
+
+    .fav-container {
+        width: 400px;
+    }
+
+    .fav-title {
+        width: 400px;
+        height: 50px;
+    }
+
+    .ft-text {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .avail-container {
+        width: 400px;
+    }
+
+    .avail-title {
+        width: 400px;
+        height: 50px;
+    }
+
+    .at-text {
+        width: 400px;
+        font-size: 15px;
+    }
+
+}
