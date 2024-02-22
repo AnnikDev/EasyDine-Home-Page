@@ -467,10 +467,6 @@ h1 {
 }
 
 @media screen and (min-width:420px) {
-    body {
-        background-color: rgb(155, 155, 99);
-    }
-
     .header {
         width: 400px;
         height: 230px;
@@ -505,7 +501,6 @@ h1 {
         width: 270px;
         height: 30px;
     }
-
 
     .header-nav {
         width: 340px;
@@ -629,6 +624,212 @@ h1 {
     }
 }
 
-@media screen and (min-width:) {
+@media screen and (min-width:620px) {
+    .nearby-container{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .nearby-title{
+        width: 170px;
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .nearby-icons{
+        transform: translateY(-5px);
+        width: 170px;
+        justify-content: center;
+        
+    }
+
+    .ri-restaurant-2-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(4px);
+    }
     
+    .ri-pin-distance-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        z-index: 1;
+    }
+    
+    .ri-road-map-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(-4px);
+    }
+    
+    .nt-text{
+        width: 160px;
+        font-size: 13px;
+    }
+
+    .restaurant-containers{
+        margin-bottom: 25px;
+    }
+
+    .fav-container{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .fav-title{
+        width: 170px;
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .fav-icons{
+        transform: translateY(-15px);
+        width: 170px;
+        justify-content: center;
+        
+    }
+
+    .ri-chat-heart-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(4px);
+    }
+    
+    .ri-star-s-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        z-index: 1;
+    }
+    
+    .ri-thumb-up-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(-4px);
+    }
+    
+    .ft-text{
+        width: 160px;
+        font-size: 13px;
+    }
+
+    .avail-container{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .avail-title{
+        width: 170px;
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .avail-icons{
+        transform: translateY(-8px);
+        width: 170px;
+        justify-content: center;
+        
+    }
+
+    .ri-door-open-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(4px);
+    }
+    
+    .ri-map-pin-time-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        z-index: 1;
+    }
+    
+    .ri-restaurant-fill {
+        background-color: #f7e6c4;
+        color: #2f372d;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        text-align: center;
+        padding-top: 3px;
+        box-sizing: border-box;
+        border: solid 1px #2f372d;
+        transform: translateX(-4px);
+    }
+    
+    .at-text{
+        width: 160px;
+        font-size: 13px;
+    }
 }
