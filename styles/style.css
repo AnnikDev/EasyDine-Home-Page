@@ -82,7 +82,7 @@ h1 {
 }
 
 .header-nav {
-    width: 270px;
+    width: 280px;
     height: 50px;
     background-color: #606c5d;
     display: flex;
@@ -105,7 +105,7 @@ h1 {
 
 .events {
     width: 116px;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -117,7 +117,7 @@ h1 {
 
 .offers {
     width: 116px;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -129,7 +129,7 @@ h1 {
 
 .edcoin-offers {
     width: 116px;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -211,7 +211,7 @@ h1 {
 
 .nt-text {
     width: 270px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -276,7 +276,7 @@ h1 {
 }
 
 .restaurant-name {
-    font-size: 13px;
+    font-size: 11px;
     color: #f7e6c4;
 }
 
@@ -378,7 +378,7 @@ h1 {
 }
 
 .ft-text {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -456,7 +456,7 @@ h1 {
 }
 
 .at-text {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -517,19 +517,19 @@ h1 {
 
     .events {
         width: 116px;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
 
     .offers {
         width: 116px;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
 
     .edcoin-offers {
         width: 116px;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 19px;
     }
 
@@ -545,7 +545,7 @@ h1 {
 
     .nt-text {
         width: 400px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .restaurant-containers {
@@ -556,7 +556,7 @@ h1 {
     }
 
     .see-more {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .item {
@@ -576,7 +576,7 @@ h1 {
     }
 
     .restaurant-name {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .review .star {
@@ -592,7 +592,7 @@ h1 {
     }
 
     .location {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .fav-container {
@@ -606,7 +606,7 @@ h1 {
 
     .ft-text {
         width: 400px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .avail-container {
@@ -620,216 +620,474 @@ h1 {
 
     .at-text {
         width: 400px;
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width:620px) {
-    .nearby-container{
+    .nearby-container {
         width: 600px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
-    .nearby-title{
+    .nearby-title {
         width: 170px;
         height: 80px;
         margin-right: 20px;
     }
 
-    .nearby-icons{
+    .nearby-icons {
         transform: translateY(-5px);
         width: 170px;
         justify-content: center;
-        
+
     }
 
     .ri-restaurant-2-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(4px);
     }
-    
+
     .ri-pin-distance-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 40px;
         height: 40px;
         font-size: 30px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        z-index: 1;
     }
-    
+
     .ri-road-map-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(-4px);
-    }
-    
-    .nt-text{
-        width: 160px;
-        font-size: 13px;
     }
 
-    .restaurant-containers{
+    .nt-text {
+        width: 160px;
+        line-height: 14px;
+    }
+
+    .restaurant-containers {
         margin-bottom: 25px;
     }
 
-    .fav-container{
+    .fav-container {
         width: 600px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
-    .fav-title{
+    .fav-title {
         width: 170px;
         height: 80px;
         margin-right: 20px;
     }
 
-    .fav-icons{
+    .fav-icons {
         transform: translateY(-15px);
         width: 170px;
         justify-content: center;
-        
+
     }
 
     .ri-chat-heart-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(4px);
     }
-    
+
     .ri-star-s-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 40px;
         height: 40px;
         font-size: 30px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        z-index: 1;
     }
-    
+
     .ri-thumb-up-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(-4px);
-    }
-    
-    .ft-text{
-        width: 160px;
-        font-size: 13px;
     }
 
-    .avail-container{
+    .ft-text {
+        width: 160px;
+        line-height: 14px;
+    }
+
+    .avail-container {
         width: 600px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
-    .avail-title{
+    .avail-title {
         width: 170px;
         height: 80px;
         margin-right: 20px;
     }
 
-    .avail-icons{
+    .avail-icons {
         transform: translateY(-8px);
         width: 170px;
         justify-content: center;
-        
+
     }
 
     .ri-door-open-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(4px);
     }
-    
+
     .ri-map-pin-time-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 40px;
         height: 40px;
         font-size: 30px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        z-index: 1;
     }
-    
+
     .ri-restaurant-fill {
-        background-color: #f7e6c4;
-        color: #2f372d;
-        border-radius: 50px;
         width: 30px;
         height: 30px;
         font-size: 22px;
-        text-align: center;
-        padding-top: 3px;
-        box-sizing: border-box;
-        border: solid 1px #2f372d;
-        transform: translateX(-4px);
     }
-    
-    .at-text{
+
+    .at-text {
         width: 160px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width:820px) {
+
+    .header {
+        width: 600px;
+        height: 350px;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        width: 400px;
+        height: 120px;
+    }
+
+    .header-img {
+        width: 97px;
+        height: 118px;
+        margin-left: -97px;
+    }
+
+    .ri-search-line {
+        font-size: 22px;
+        color: #f1c376;
+        z-index: 1;
+    }
+
+    .header-search input {
+        width: 400px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .ri-equalizer-2-line {
+        font-size: 22px;
+    }
+
+    .header-nav {
+        width: 500px;
+        height: 72px;
+        margin-top: -37px;
+    }
+
+    .line {
+        height: 72px;
+    }
+
+    .header-nav i {
+        font-size: 22px;
+    }
+
+    .events {
+        width: 116px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .offers {
+        width: 116px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .edcoin-offers {
+        width: 116px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .nearby-container {
+        width: 800px;
+    }
+
+    .nearby-title {
+        width: 270px;
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    .nearby-icons {
+        transform: translateY(-18px);
+    }
+
+    .nt-text {
+        width: 250px;
         font-size: 13px;
+        padding-bottom: 40px
+    }
+
+    .restaurant-containers {
+        width: 500px;
+        margin-bottom: 25px;
+        column-gap: 10px;
+        height: 210px;
+    }
+
+    .item {
+        width: 100%;
+        height: 80%;
+    }
+
+    .item img {
+        margin-top: -33px;
+    }
+
+    .ri-heart-line {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .restaurant-name {
+        font-size: 15px;
+    }
+
+    .review .star {
+        font-size: 16px;
+    }
+
+    .review p {
+        font-size: 9px;
+    }
+
+    .rev-num {
+        padding-right: 6px;
+    }
+
+    .location {
+        font-size: 9px;
+    }
+
+    .fav-container {
+        width: 800px;
+    }
+
+    .fav-title {
+        width: 270px;
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    .fav-icons {
+        transform: translateY(-18px);
+    }
+
+    .ft-text {
+        width: 260px;
+        font-size: 13px;
+        padding-bottom: 40px
+    }
+
+    .avail-container {
+        width: 800px;
+    }
+
+    .avail-title {
+        width: 270px;
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    .avail-icons {
+        transform: translateY(-18px);
+    }
+
+    .at-text {
+        width: 260px;
+        font-size: 13px;
+        padding-bottom: 40px
+    }
+
+}
+
+@media screen and (min-width: 1140px) {
+    .header {
+        width: 900px;
+        height: 450px;
+    }
+
+    .container {
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 60px;
+        width: 600px;
+        height: 180px;
+    }
+
+    .header-img {
+        width: 118px;
+        height: 145px;
+        margin-left: -118px
+    }
+
+    .ri-search-line {
+        font-size: 28px;
+        color: #f1c376;
+        z-index: 1;
+    }
+
+    .header-search input {
+        width: 600px;
+        height: 40px;
+        font-size: 13px;
+        padding-left: 47px;
+        margin: auto -40px;
+    }
+
+    .ri-equalizer-2-line {
+        font-size: 28px;
+    }
+
+    .header-nav {
+        width: 750px;
+        height: 90px;
+        margin-top: -37px;
+    }
+
+    .line {
+        height: 90px;
+    }
+
+    .header-nav i {
+        font-size: 25px;
+    }
+
+    .events {
+        width: 250px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .offers {
+        width: 250px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .edcoin-offers {
+        width: 250px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .nearby-container {
+        width: 1100px;
+    }
+
+    .nearby-title {
+        width: 352px;
+        height: 127px;
+    }
+
+    .nearby-icons {
+        transform: translateY(-22px);
+    }
+
+    .nt-text {
+        width: 351px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .see-more{
+        font-size: 13px;
+    }
+
+    .restaurant-containers {
+        width: 725px;
+        margin-bottom: 25px;
+        column-gap: 37px;
+        height: 282px;
+    }
+
+    .restaurant-name {
+        font-size: 18px;
+    }
+
+    .review .star {
+        font-size: 18px;
+    }
+
+    .location {
+        font-size: 10px;
+    }
+
+    .fav-container {
+        width: 1100px;
+    }
+
+    .fav-title {
+        width: 352px;
+        height: 127px;
+    }
+
+    .fav-icons {
+        transform: translateY(-24px);
+    }
+
+    .ft-text {
+        width: 351px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .avail-container {
+        width: 1100px;
+    }
+
+    .avail-title {
+        width: 352px;
+        height: 127px;
+    }
+
+    .avail-icons {
+        transform: translateY(-24px);
+    }
+
+    .at-text {
+        width: 351px;
+        font-size: 17px;
+        line-height: 20px;
     }
 }
