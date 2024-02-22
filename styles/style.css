@@ -27,11 +27,11 @@ body {
 }
 
 h1 {
-    width: 300px;
+    width: 270px;
     height: 71px;
     flex-grow: 0;
     font-family: "Playfair Display", serif;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .header-search input {
-    width: 243px;
+    width: 220px;
     height: 27px;
     flex-grow: 0;
     padding-left: 35px;
@@ -210,6 +210,7 @@ h1 {
 }
 
 .nt-text {
+    width: 270px;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -226,14 +227,14 @@ h1 {
     width: 320px;
     column-gap: 8px;
     margin: 5px 0 70px;
-    height: 160px;
+    height: 170px;
 }
 
 .see-more {
     grid-column: 3/-1;
     text-decoration: underline;
     cursor: pointer;
-    font-size: 7px;
+    font-size: 10px;
     font-weight: bold;
     text-align: left;
     text-align: right;
