@@ -466,7 +466,7 @@ h1 {
     padding-bottom: 25px;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:420px) {
     body {
         background-color: rgb(155, 155, 99);
     }
@@ -627,5 +627,8 @@ h1 {
         width: 400px;
         font-size: 15px;
     }
+}
 
+@media screen and (min-width:) {
+    
 }
